@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf build",
+    "docker:build": "docker build -t fink-brand-render .",
     "build": "node build.mjs"
   },
   "repository": {
@@ -21,7 +22,9 @@
   "homepage": "https://github.com/fink-lang/brand#readme",
   "devDependencies": {
     "@semantic-release/github": "^12.0.6",
-    "playwright": "^1.58.2",
     "semantic-release": "^25.0.3"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.58.2"
   }
 }

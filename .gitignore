@@ -2,3 +2,5 @@
 /.claude/settings.local.json
 /notes
 /.claude.local/
+/build/
+node_modules/
